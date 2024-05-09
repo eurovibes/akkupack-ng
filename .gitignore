@@ -1,0 +1,18 @@
+# KiCad 
+*.bak
+*.bck
+*cache.lib 
+*.kicad_pcb-bak
+*.log
+*.sch-bak
+*-backups/
+
+akkupack-ng.net
+fp-info-cache
+
+place_footprints.ini
+place_footprints.log
+
+# other backup files
+*~
+\#*#
