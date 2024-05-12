@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1280"
+    height="960"
+    viewBox="0 0 400 300"
+    version="1.1"
+    id="svg5">
+  <metadata
+      id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+          rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>AKKU pack gas gauge NG Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+      id="defs9" />
+  <title
+      id="title">AKKU pack gas gauge NG Logo</title>
+  <!--
+      <rect
+      style="fill:none;stroke:#000000;stroke-width:1;fill-opacity:1"
+      id="canvas"
+      width="400"
+      height="300"
+      x="0"
+      y="0" />
+  -->
+  <g id="battery">
+    <path
+        style="fill:#000000;stroke:#000000;stroke-width:1;fill-opacity:1"
+        id="base"
+        d="M 150 175 L 250 175 L 250 220 q 0 5 -5 5 L 155 225 q -5 0 -5 -5 Z" />
+    <rect
+        style="fill:#000000;stroke:#000000;stroke-width:1;fill-opacity:1"
+        id="top"
+        width="106"
+        height="10"
+        x="147"
+        y="162" />
+    <rect
+        style="fill:#000000;stroke:#000000;stroke-width:1;fill-opacity:1"
+        id="Pol1"
+        width="10"
+        height="8"
+        x="162"
+        y="152" />
+    <rect
+        style="fill:#000000;stroke:#000000;stroke-width:1;fill-opacity:1"
+        id="Pol2"
+        width="10"
+        height="8"
+        x="228"
+        y="152" />
+  </g>
+  <g id="gauge">
+    <circle
+        style="fill:#000000;fill-opacity:0.1;stroke:#000000;stroke-width:2;fill-opacity:1"
+        r="125"
+        cx="200"
+        cy="150"
+        id="dail" />
+    <text
+	id="empty"
+	x="80" y="170" style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:red;fill-opacity:1;stroke:none;font-family:Arial,Sans">E</text>
+    <text
+	id="full"
+	x="310" y="170" style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial,Sans">F</text>
+    <path
+	style="fill:#000000;stroke:#000000;stroke-width:0.1;fill-opacity:1"
+        id="scale"
+        d="M 80 150 A 120 120 0 0 1 320 150 L 300 150 A 110 110 0 0 0 80 150 Z"/>
+    <path
+	style="fill:#F00000;stroke:#000000;stroke-width:0.1;fill-opacity:1"
+        id="needle"
+        d="M 197 153 125 75 203 147 Z" />
+    <circle
+        style="fill:x000000;stroke:#000000;stroke-width:1;fill-opacity:1"
+        r="5"
+        cx="200"
+        cy="150"
+        id="center" />
+  </g>
+  <g id="HighVoltage"
+     transform="matrix(0.0625,0,0,0.0625,176.11154,180.60613)">
+    <path
+	id="path634"
+	stroke-linejoin="round"
+	d="M 666.48,585.05 32.3,585.51 C 7.513,585.53 -2.917,560.57 11.674,536.15 L 316.354,26.22 c 17.4,-28.298 49.66,-28.606 67.06,0.955 l 308.18,508.52 c 16.95,24.27 4.62,49.78 -25.11,49.35 z"
+	fill-rule="evenodd"
+	stroke="#ffe600"
+	stroke-width="10" />
+    <path
+	id="path609"
+	fill-rule="evenodd"
+	fill="#ffe600"
+	d="m 507.62,360.36 89.41,153.81 -307.47,2.61 -180.25,-1.77 150,-262.2 90.84,-152.05 z" />
+    <path
+	id="path615"
+	fill-rule="evenodd"
+	d="m 331.93,194.79 -76.78,187.8 107.49,-36.61 -37.8,140.56 80.32,-172.45 -114.57,35.43 82.68,-155.91 z" />
+    <path
+	id="path617"
+	fill-rule="evenodd"
+	d="m 316.57,434.56 9.45,57.88 41.34,-48.43 -29.53,7.09 z" />
+  </g>
+</svg>
