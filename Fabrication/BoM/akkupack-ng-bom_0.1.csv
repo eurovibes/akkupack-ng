@@ -1,0 +1,43 @@
+Row,References,Part,Value,P/N,Manufacture,Source,Supplier P/N,Link,Footprint,Description,Quantity Per PCB
+1,C101 C102 C103 C104 C105 C106 C107 C201 C202 C203 C204 C206 C207 C210 C211 C212 C213 C214 C216 C301 C302 C303 C304 C401 C402 C403 C404,C,3.3 nF,,,JLCPCB,,https://jlcpcb.com/partdetail/Tdk-C3216X7R1E335KT000N/C76663 https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923 https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331 https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB221/C107145 https://jlcpcb.com/partdetail/33914-CL05C100JB5NNNC/C32949 https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446 https://jlcpcb.com/partdetail/29074-CL21B105KBFNNNE/C28323,C_1206_3216Metric,Unpolarized capacitor,27
+2,C205 C208 C209 C215,C_Polarized,1 F,,,TME JLCPCB,,https://www.tme.eu/en/details/scv1f-3.0v-ltz/supercapacitors/spscap/scv0001c0-003r0ltz/ https://jlcpcb.com/partdetail/-TAJB107K006RNJ/C16133,CP_Radial_D8.0mm_P3.50mm,Polarized capacitor,4
+3,D202,1N4148WS,1N4148WS,,,JLCPCB,,https://jlcpcb.com/partdetail/2485-1N4148WS/C2128,D_SOD-323,"75V 0.15A Fast switching Diode, SOD-323",1
+4,D101,BZT52Bxx,BZT52B5V6T,,,JLCPCB,,https://jlcpcb.com/partdetail/Lrc-LBZT52B5V6T1G/C2912016,D_SOD-123F,"500mW Zener Diode, SOD-123F",1
+5,D201,ESD9B3.3ST5G,ESD9B3.3ST5G,,,JLCPCB,,https://jlcpcb.com/partdetail/Onsemi-ESD9B33ST5G/C96512,D_SOD-923,"ESD protection diode, 3.3Vrwm, SOD-923",1
+6,D102 D103 D104 D105 D106 D107 D108 D109 D110 D111 D301 D401,LED,RED,,,JLCPCB,,https://jlcpcb.com/partdetail/Xinglight-XL_1608VRC06/C7371906 https://jlcpcb.com/partdetail/Xinglight-XL_1608UYC04/C965803 https://jlcpcb.com/partdetail/Xinglight-XL_1608UGC04/C965804,LED_0603_1608Metric,Light emitting diode,12
+7,J101 J102 J103 J108,Conn_01x02,12V OUT,,,Digikey,2946-236-402-ND,https://www.digikey.de/de/products/detail/wago-corporation/236-402/15573417,TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",4
+8,J104 J105 J106,745-302,BAT,,,Digikey,2946-745-302-ND,https://www.digikey.de/de/products/detail/wago-corporation/745-302/15557017,745-302_WAGO,,3
+9,J201,Conn_01x07,DISP,,,Digikey,609-6552-ND,https://www.digikey.de/de/products/detail/amphenol-cs-fci/76341-307LF/1523892?s=N4IgjCBcoBw1oDGUBmBDANgZwKYBoQB7KAbRACYA2AdhnIFYQBdAgBwBcoQBldgJwCWAOwDmIAL4EwVAMwIQySOmz4ipEJQAsMSowKUt9ciALV60uafPlNzNp0g9%2BwsZPDUAnAAZ5i5bgJiSDIPaio7EA4uXkFRCQJyMDDfVEwAtWDwCKjHAEkhdhwRHD54kABaY2gFKH4AV1Ugsj0QD2Y3crbqxXrG9QgmcTdKeQEAEy5ysC8Iey4TEHYAT1YcLjQsZCGgA,PinSocket_1x07_P2.54mm_Vertical,"Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)",1
+10,J203,Conn_01x06,SPI,,,Digikey,952-1809-ND,https://www.digikey.de/de/products/detail/harwin-inc/M20-7820646/3727777,PinSocket_1x06_P2.54mm_Vertical,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",1
+11,J202,Conn_02x03_Odd_Even,SWD,,,--,,,Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",1
+12,J204 J301 J401,USB_OTG,USB serial,,,JLCPCB,,https://jlcpcb.com/partdetail/Molex-475900001/C136001,USB_Micro-AB_Molex_47590-0001,USB mini/micro connector,3
+13,JP201,SolderJumper_2_Open,BOOT0,,,--,,,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,"Solder Jumper, 2-pole, open",1
+14,Q101 Q103 Q201,2N7002,2N7002,,,JLCPCB,,https://jlcpcb.com/partdetail/9040-2N7002/C8545,SOT-23,"0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",3
+15,Q102,BSS84,BSS84,,,JLCPCB,,https://jlcpcb.com/partdetail/mdd_microdiode_electronics-BSS84/C427395,SOT-23,"-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23",1
+16,R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113 R114 R115 R116 R117 R118 R119 R201 R202 R203 R204 R205 R206 R207 R208 R209 R210 R211 R212 R213 R301 R302 R401 R402,R,10 kΩ,,,JLCPCB,,https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744 https://jlcpcb.com/partdetail/Isabellenhuette-VMS_R010_1_0U/C466594 https://jlcpcb.com/partdetail/VikingTech-ARG03BTC3003/C335091 https://jlcpcb.com/partdetail/Yageo-RT0603BRE0716K5L/C861693 https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741 https://jlcpcb.com/partdetail/302237-RC02W1653FT/C321332 https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076 https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702 https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900 https://jlcpcb.com/partdetail/18646-1206W4F220JT5E/C17958 https://jlcpcb.com/partdetail/26610-0402WGF1501TCE/C25867 https://jlcpcb.com/partdetail/23677-0603WAF200JT5E/C22950 https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168,R_0402_1005Metric,Resistor,36
+17,SW101 SW201,SW_Push_45deg,LED Enable,,,JLCPCB,,https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884,Push_SW_5x5,"Push button switch, normally open, two pins, 45° tilted",2
+18,U102 U103,74HC164,74HC164,,,JLCPCB,,https://jlcpcb.com/partdetail/TexasInstruments-SN74HC164PWR/C406867,TSSOP-14_4.4x5mm_P0.65mm,8-bit serial-in parallel-out shift register,2
+19,U203,AMS1117-3.3,AMS1117-3.3,,,JLCPCB,,https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186,SOT-223-3_TabPin2,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",1
+20,U101,BQ34Z100PWR-G1,BQ34Z100PWR-G1,,,JLCPCB,,https://jlcpcb.com/partdetail/TexasInstruments-BQ34Z100PWRG1/C91302,SOP65P640X120-14N,,1
+21,U303 U403,CH330N,CH330N,,,JLCPCB,,https://jlcpcb.com/partdetail/wch_jiangsu_Qin_heng-CH340N/C2977777,SOIC-8_3.9x4.9mm_P1.27mm,"USB serial converter, UART, SOIC-8",2
+22,U201,STM32F103CBTx,STM32F103CBT6,,,JLCPCB,,https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F103CBT6/C8304,LQFP-48_7x7mm_P0.5mm,"STMicroelectronics Arm Cortex-M3 MCU, 128KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48",1
+23,U202 U301 U401,USBLC6-2SC6,USBLC6-2SC6,,,JLCPCB,,https://jlcpcb.com/partdetail/TechPublic-USBLC62SC6/C2827654,SOT-23-6,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",3
+24,U302 U402,XC6206PxxxMR,XC6206PxxxMR,,,JLCPCB,,https://jlcpcb.com/partdetail/TorexSemicon-XC6206P332MR/C5446,SOT-23-3,"Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23",2
+25,Y201 Y202,Crystal,8MHz,,,JLCPCB,,https://jlcpcb.com/partdetail/YangxingTech-X50328MSB2GI/C115962 https://jlcpcb.com/partdetail/SeikoEpson-Q13FC1350000400/C32346,Crystal_SMD_5032-2Pin_5.0x3.2mm,Two pin crystal,2
+
+
+
+
+
+Project info:
+Schematic:,akkupack-ng
+Variant:,default
+Revision:,0.1
+Date:,2024-05-10
+KiCad Version:,8.0.2+dfsg-1
+Statistics:
+Component Groups:,26
+Component Count:,117
+Fitted Components:,116
+Number of PCBs:,1
+Total Components:,116

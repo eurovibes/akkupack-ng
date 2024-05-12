@@ -1,0 +1,11 @@
+ERC report (2024-05-23T10:42:15+0000, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /MCU/
+
+***** Sheet /MCU/serial1/
+
+***** Sheet /MCU/serial2/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
