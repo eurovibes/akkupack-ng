@@ -198,4 +198,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "a1358d56-9150-42f4-99bc-f4981ef1d29f")
 	)
+	(model "${KIPRJMOD}/footprint/ts-1187a-b-a-b.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )
