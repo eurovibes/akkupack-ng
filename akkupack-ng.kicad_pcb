@@ -53957,6 +53957,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "PCB3D_TL_akkupack-ng"
+		(at 50 45 180)
+		(layer "Cmts.User")
+		(uuid "99c46368-fb16-4d5c-8d0f-6dd170cbcef9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PCB3D_BR_akkupack-ng"
+		(at 160 125 0)
+		(layer "Cmts.User")
+		(uuid "e50bb595-f497-4310-8691-b9eb51f056d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 97.5 120)
 		(end 96.25 120)
