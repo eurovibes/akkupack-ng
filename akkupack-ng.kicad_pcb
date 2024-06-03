@@ -832,7 +832,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 0 1.82 0)
+			(at 0 1.25 0)
 			(layer "F.Fab")
 			(uuid "049df372-a9f5-446b-9bdb-5dd6c72c9bdd")
 			(effects
@@ -3069,7 +3069,7 @@
 			)
 		)
 		(property "Value" "TP1"
-			(at 0 1.55 90)
+			(at -2.5 0 90)
 			(layer "F.Fab")
 			(uuid "af2ae0b3-5a5b-402e-829d-a2a9e52d378b")
 			(effects
@@ -4682,7 +4682,7 @@
 			)
 		)
 		(property "Value" "TP2"
-			(at 0 1.55 90)
+			(at -2.5 0 90)
 			(layer "F.Fab")
 			(uuid "da0d657c-de63-4b74-9ac8-903c199a4800")
 			(effects
@@ -5241,7 +5241,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 90)
+			(at 2.95 -0.2 90)
 			(layer "F.Fab")
 			(uuid "3f30b619-d47d-4324-9e1e-f2b7bcf48cdb")
 			(effects
@@ -5542,7 +5542,7 @@
 			)
 		)
 		(property "Value" "XC6206PxxxMR"
-			(at 0 2.4 180)
+			(at -2.75 0 -90)
 			(layer "F.Fab")
 			(uuid "526b6c7c-7769-4542-99d3-c1c6a7224820")
 			(effects
@@ -6577,7 +6577,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 180)
+			(at 0 1.5 180)
 			(layer "F.Fab")
 			(uuid "6fe29c3e-f959-40cd-82b6-1e545b68c564")
 			(effects
@@ -7526,7 +7526,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 0)
+			(at -0.3 -1.25 0)
 			(layer "F.Fab")
 			(uuid "f0e6798c-bfce-48d2-863c-865cfc16fb57")
 			(effects
@@ -7827,7 +7827,7 @@
 			)
 		)
 		(property "Value" "IN"
-			(at 3.547054 6.25 -90)
+			(at 3.547054 19.5 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "5ccd5fac-482a-43be-9fa9-0ef32a9eb2f0")
@@ -10738,7 +10738,7 @@
 			)
 		)
 		(property "Value" ".010 20PPM"
-			(at 0 1.17 -90)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "bc80c9b2-c58b-4936-af53-4ac8208ded7b")
 			(effects
@@ -11065,7 +11065,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 0 1.82 90)
+			(at 0 1.5 90)
 			(layer "F.Fab")
 			(uuid "9d8e67bb-ee22-4b05-8085-a501a6b99566")
 			(effects
@@ -12677,7 +12677,7 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 0 -4.7 0)
+			(at 4.5 -0.115 90)
 			(layer "F.Fab")
 			(uuid "39b1e7c6-502e-47fd-a9f3-cc447e35cd96")
 			(effects
@@ -13443,7 +13443,7 @@
 			)
 		)
 		(property "Value" "12V OUT"
-			(at 2.65 10.12 0)
+			(at 2.65 11 0)
 			(layer "F.Fab")
 			(uuid "699ca388-bb93-4013-b111-83044eba73e2")
 			(effects
@@ -14606,7 +14606,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 0 2.4 0)
+			(at -2.92 2.05 90)
 			(layer "F.Fab")
 			(uuid "fb03c8b5-fd1a-4445-9369-cb83e7ccfb58")
 			(effects
@@ -16841,7 +16841,7 @@
 			)
 		)
 		(property "Value" "36V OUT"
-			(at 2.65 10.12 0)
+			(at 2.65 11 0)
 			(layer "F.Fab")
 			(uuid "3a7a0e84-f91b-4a03-8de4-cc2b7b13a9b1")
 			(effects
@@ -18331,7 +18331,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 0 2.4 0)
+			(at -3.67 -2.45 0)
 			(layer "F.Fab")
 			(uuid "fd998c4f-e59a-44e1-897a-172d7b518b5c")
 			(effects
@@ -18741,7 +18741,7 @@
 			)
 		)
 		(property "Value" "8A"
-			(at 0 5 90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "7d04dfb3-8d92-4c3b-9f1b-7b777614943c")
@@ -19385,7 +19385,7 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 0 2.8 180)
+			(at -4.25 -1.5 -90)
 			(layer "F.Fab")
 			(uuid "364d1a81-5322-4c80-857a-ea893b58bedc")
 			(effects
@@ -22436,7 +22436,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 0 1.55 90)
+			(at 0 -1.75 90)
 			(layer "F.Fab")
 			(uuid "4f7ba567-aee4-4bfb-a37e-6a6fb0b7deae")
 			(effects
@@ -22763,7 +22763,7 @@
 			)
 		)
 		(property "Value" "OUT"
-			(at 3.547054 6.25 -90)
+			(at 3.547054 19.5 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "da24ffc3-b204-4072-ab24-59f305b173ad")
@@ -23108,7 +23108,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.68 0)
+			(at 1.5 -0.75 90)
 			(layer "F.Fab")
 			(uuid "6005e3ea-2b38-4441-808b-34363fe4b941")
 			(effects
@@ -23435,7 +23435,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.17 0)
+			(at -2.01 -0.265 0)
 			(layer "F.Fab")
 			(uuid "6ca41638-88b4-4ce5-b7dc-57e33ee8b16b")
 			(effects
@@ -23762,7 +23762,7 @@
 			)
 		)
 		(property "Value" "BAT"
-			(at 3.547054 6.25 -90)
+			(at 3.547054 19.5 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "aa7a6816-d9ef-4fe8-a4e8-0137c2e0213b")
@@ -24638,7 +24638,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 0 1.16 90)
+			(at -0.5 1.5 90)
 			(layer "F.Fab")
 			(uuid "0f005851-eae5-4f87-ba64-af80896a44c4")
 			(effects
@@ -24939,7 +24939,7 @@
 			)
 		)
 		(property "Value" "TP6"
-			(at 0 1.55 90)
+			(at -2.5 0 90)
 			(layer "F.Fab")
 			(uuid "a667c1c4-74d1-4786-8352-fc262c381d76")
 			(effects
@@ -25168,7 +25168,7 @@
 			)
 		)
 		(property "Value" "32k"
-			(at 0 2 90)
+			(at 2.75 0 180)
 			(layer "F.Fab")
 			(uuid "27fa436c-a5dc-4fa9-9aca-a35208ee752b")
 			(effects
@@ -25469,7 +25469,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 0 1.17 0)
+			(at 0.25 -1.25 0)
 			(layer "F.Fab")
 			(uuid "4203a73f-4488-47f4-af4b-6ae07fe6190c")
 			(effects
@@ -26943,7 +26943,7 @@
 			)
 		)
 		(property "Value" "20"
-			(at 0 1.43 -90)
+			(at -2.5 -0.04 -90)
 			(layer "F.Fab")
 			(uuid "29ea0d7c-6569-45ca-9bd1-4f9b3e18eebf")
 			(effects
@@ -27571,7 +27571,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 0 2.4 -90)
+			(at -5 -1.5 -90)
 			(layer "F.Fab")
 			(uuid "c16b950d-077e-47f0-9fed-b4ce5d4bb1ee")
 			(effects
@@ -27952,7 +27952,7 @@
 			)
 		)
 		(property "Value" "20p"
-			(at 0 1.16 180)
+			(at -0.5 -1.25 180)
 			(layer "F.Fab")
 			(uuid "624da35a-836d-4eac-b85f-4e4427e44129")
 			(effects
@@ -29072,7 +29072,7 @@
 			)
 		)
 		(property "Value" "8A"
-			(at 0 5 90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "70873ba2-537b-4243-8920-fddce52f429f")
@@ -29317,7 +29317,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 0 1.55 90)
+			(at 0 -1.75 90)
 			(layer "F.Fab")
 			(uuid "dd3c8d10-014e-4b6b-935e-851ffb3723de")
 			(effects
@@ -29945,7 +29945,7 @@
 			)
 		)
 		(property "Value" "36V IN"
-			(at 2.65 10.12 0)
+			(at 2.65 11 0)
 			(layer "F.Fab")
 			(uuid "c016c10d-b889-4727-b736-6fe4dc3d6abc")
 			(effects
@@ -31108,7 +31108,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 0)
+			(at 2 0 90)
 			(layer "F.Fab")
 			(uuid "a866a17c-af33-4d4e-a2e6-6cde7302067e")
 			(effects
@@ -35517,7 +35517,7 @@
 			)
 		)
 		(property "Value" "STM32F103CBT6"
-			(at 0 5.85 -90)
+			(at -6.5 6 -90)
 			(layer "F.Fab")
 			(uuid "ec80d3fc-7488-4b8c-9fe3-083b9831de03")
 			(effects
@@ -36562,7 +36562,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.17 90)
+			(at 2 0 90)
 			(layer "F.Fab")
 			(uuid "ec821373-1700-48bd-9ed6-d12e266a2863")
 			(effects
@@ -37587,7 +37587,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 -90)
+			(at 1.25 -2.25 0)
 			(layer "F.Fab")
 			(uuid "0925a014-5899-4489-b9d5-1644ba5527e5")
 			(effects
@@ -38215,7 +38215,7 @@
 			)
 		)
 		(property "Value" "TP5"
-			(at 0 1.55 90)
+			(at -2.5 0 90)
 			(layer "F.Fab")
 			(uuid "7bec6a0b-5174-4f6b-b556-c5f6414c5869")
 			(effects
@@ -41194,7 +41194,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.82 180)
+			(at 0 -1.25 180)
 			(layer "F.Fab")
 			(uuid "c4840679-4cd3-4ba5-912a-927f45f2df81")
 			(effects
@@ -41495,7 +41495,7 @@
 			)
 		)
 		(property "Value" "LED SW"
-			(at 1.25 4.6 0)
+			(at 1.25 5.275 0)
 			(layer "F.Fab")
 			(uuid "81a552a4-191c-4741-b4b4-e1d3bd32dfed")
 			(effects
@@ -42390,7 +42390,7 @@
 			)
 		)
 		(property "Value" "XC6206PxxxMR"
-			(at 0 2.4 180)
+			(at -2.75 0 -90)
 			(layer "F.Fab")
 			(uuid "c7a621dd-85b3-4e6e-9fab-b9af4033a5eb")
 			(effects
@@ -42771,7 +42771,7 @@
 			)
 		)
 		(property "Value" "20p"
-			(at 0 1.16 0)
+			(at -0.5 1.25 0)
 			(layer "F.Fab")
 			(uuid "7011e6c3-3085-411f-ae77-fad2809c8d84")
 			(effects
@@ -43072,7 +43072,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 0 1.16 -90)
+			(at -0.5 -1.5 -90)
 			(layer "F.Fab")
 			(uuid "c539eea0-9383-42e9-b57a-72fd101c2644")
 			(effects
@@ -43722,7 +43722,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 0)
+			(at 0 -1.25 0)
 			(layer "F.Fab")
 			(uuid "f440d133-5707-485d-b83c-d52dbd011f20")
 			(effects
@@ -45628,7 +45628,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 0 1.17 0)
+			(at -1.75 0 0)
 			(layer "F.Fab")
 			(uuid "67eacf23-d7cb-4464-bad5-ad7a530b59fe")
 			(effects
@@ -48142,7 +48142,7 @@
 			)
 		)
 		(property "Value" "ESD9B3.3ST5G"
-			(at 0 1.2 -90)
+			(at -6.45 0.15 -90)
 			(layer "F.Fab")
 			(uuid "e7c6c356-23ac-4d9e-a118-bb17f0b6441a")
 			(effects
@@ -48595,7 +48595,7 @@
 			)
 		)
 		(property "Value" "TP4"
-			(at 0 1.55 90)
+			(at -2.5 0 90)
 			(layer "F.Fab")
 			(uuid "765fced9-9d34-4bc7-936f-fb99dc260f10")
 			(effects
@@ -48824,7 +48824,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 0 1.17 0)
+			(at -1.75 0 0)
 			(layer "F.Fab")
 			(uuid "dff16796-55ec-470d-9349-90767c158286")
 			(effects
@@ -49125,7 +49125,7 @@
 			)
 		)
 		(property "Value" "20"
-			(at 0 1.43 -90)
+			(at -2.5 -0.05 -90)
 			(layer "F.Fab")
 			(uuid "a7647448-96ca-47e1-b8fd-1a16452f06b4")
 			(effects
@@ -49753,7 +49753,7 @@
 			)
 		)
 		(property "Value" "1µ"
-			(at 0 1.68 0)
+			(at -2 0 180)
 			(layer "F.Fab")
 			(uuid "ae583576-9c68-4cee-be31-0f205ca76277")
 			(effects
@@ -50708,7 +50708,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 0 1.55 90)
+			(at 0 -1.75 90)
 			(layer "F.Fab")
 			(uuid "c3619a30-7e29-409e-ad2f-a1548b0379a8")
 			(effects
@@ -52060,7 +52060,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 0 2.4 0)
+			(at -3.17 -0.2 90)
 			(layer "F.Fab")
 			(uuid "fe831db9-be76-43d2-bd83-3029bf80d49d")
 			(effects
@@ -53099,7 +53099,7 @@
 			)
 		)
 		(property "Value" "TP3"
-			(at 0 1.55 90)
+			(at -2.5 0 90)
 			(layer "F.Fab")
 			(uuid "d02946e8-9ed7-463a-b1c9-8158ee757b0f")
 			(effects
@@ -53327,7 +53327,7 @@
 			)
 		)
 		(property "Value" "LED Enable"
-			(at 0 5.25 180)
+			(at 0 -4.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a50c79f0-cf71-4b06-b552-1d6712bd013f")
@@ -53671,7 +53671,7 @@
 			)
 		)
 		(property "Value" "BOOT0"
-			(at 0 1.9 -90)
+			(at 4.1 0.05 -90)
 			(layer "F.Fab")
 			(uuid "116baf0e-8b43-4c1c-b49f-1fc1a39907ac")
 			(effects
