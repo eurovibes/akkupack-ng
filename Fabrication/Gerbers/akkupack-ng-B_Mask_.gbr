@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.2+dfsg-1*%
-%TF.CreationDate,2024-05-24T10:29:54+00:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.1+1*%
+%TF.CreationDate,2025-05-10T12:42:51+00:00*%
 %TF.ProjectId,akkupack-ng,616b6b75-7061-4636-9b2d-6e672e6b6963,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.2+dfsg-1) date 2024-05-24 10:29:54*
+G04 Created by KiCad (PCBNEW 9.0.1+1) date 2025-05-10 12:42:51*
 %MOMM*%
 %LPD*%
 G01*
@@ -32,7 +32,7 @@ G04 Aperture macros list end*
 %ADD10R,2.413000X2.413000*%
 %ADD11C,2.413000*%
 %ADD12R,1.700000X1.700000*%
-%ADD13O,1.700000X1.700000*%
+%ADD13C,1.700000*%
 %ADD14C,6.400000*%
 %ADD15C,2.374900*%
 %ADD16C,0.990600*%
