@@ -7271,7 +7271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a370c3-b040-4fa3-9068-a0167980202c")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0218"
 			(at 86.36 140.97 0)
 			(effects
 				(font
@@ -7321,7 +7321,7 @@
 		(instances
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
-					(reference "#PWR0219")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -7997,7 +7997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1748d06c-dc60-4a4f-a837-45d5c99dcdf1")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0219"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -8047,7 +8047,7 @@
 		(instances
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
-					(reference "#PWR0217")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -10330,7 +10330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50cd06b8-cab2-4fc4-9d58-3c05ece20a65")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR0238"
 			(at 254 158.75 0)
 			(effects
 				(font
@@ -10380,7 +10380,7 @@
 		(instances
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
-					(reference "#PWR0243")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -11858,7 +11858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73da7a92-1382-4d32-bc61-95a2a702f694")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0237"
 			(at 254 110.49 0)
 			(effects
 				(font
@@ -11908,7 +11908,7 @@
 		(instances
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
-					(reference "#PWR0236")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -13322,7 +13322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8748eee-5cd6-4921-9cd3-d92e5eaf92a1")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR0236"
 			(at 254 57.15 0)
 			(effects
 				(font
@@ -13372,7 +13372,7 @@
 		(instances
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
-					(reference "#PWR0238")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -14457,7 +14457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d426fe39-8550-40d2-b84f-5a41eb004223")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0217"
 			(at 86.36 120.65 0)
 			(effects
 				(font
@@ -14507,7 +14507,7 @@
 		(instances
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
-					(reference "#PWR0218")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)

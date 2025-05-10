@@ -5,10 +5,10 @@
 	(uuid "addd7947-c051-49df-bed9-b53d983ee62e")
 	(paper "A4")
 	(title_block
-		(title "Fair Demo - Input shield")
-		(date "2024-01-14")
+		(title "Akkupack NG")
+		(date "2024-05-10")
 		(rev "0.1")
-		(company "Linutronix GmbH / Benedikt Spranger")
+		(company "Eurovibes Benedikt Spranger")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
 		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
 		(comment 3 "To view a copy of this license, visit")
@@ -2489,7 +2489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "002c2d09-f664-4097-bbd3-73f72bbb27e7")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0304"
 			(at 137.16 80.01 0)
 			(effects
 				(font
@@ -2539,11 +2539,11 @@
 		(instances
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
-					(reference "#PWR0303")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0403")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6851fe5b-b786-4657-9ddb-aa36347dd4f9")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0303"
 			(at 127 123.19 0)
 			(effects
 				(font
@@ -3845,11 +3845,11 @@
 		(instances
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
-					(reference "#PWR0304")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0404")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
