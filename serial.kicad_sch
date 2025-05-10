@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "addd7947-c051-49df-bed9-b53d983ee62e")
 	(paper "A4")
 	(title_block
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 3.81 -1.27 0)
 				(effects
 					(font
@@ -97,31 +97,11 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
+				(polyline
+					(pts
+						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
+						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
 					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
 					(stroke
 						(width 0)
 						(type default)
@@ -132,14 +112,25 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
+						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -168,8 +159,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+						(xy -1.905 2.159) (xy 0.635 2.159)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -178,23 +180,9 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
-						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
-					)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
 					(stroke
 						(width 0)
 						(type default)
@@ -214,20 +202,21 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 5.08 -5.207)
-					(end 4.318 -4.953)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
+					(start 5.08 4.953)
+					(end 4.318 5.207)
 					(stroke
 						(width 0)
 						(type default)
@@ -248,8 +237,19 @@
 					)
 				)
 				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.207)
+					(end 4.318 -4.953)
 					(stroke
 						(width 0)
 						(type default)
@@ -261,70 +261,16 @@
 			)
 			(symbol "USB_OTG_1_1"
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at -2.54 -10.16 90)
 					(length 2.54)
-					(name "VBUS"
+					(name "Shield"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "ID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -351,16 +297,70 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -10.16 90)
+					(at 7.62 5.08 180)
 					(length 2.54)
-					(name "Shield"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -369,9 +369,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -444,7 +447,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -456,7 +459,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -505,9 +508,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:FerriteBead_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -580,7 +586,7 @@
 			(symbol "FerriteBead_Small_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
 					(stroke
 						(width 0)
@@ -604,7 +610,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
 					(stroke
 						(width 0)
@@ -653,11 +659,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -704,6 +715,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -725,10 +745,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -749,7 +781,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -761,22 +793,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -822,9 +842,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -943,6 +966,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Interface_USB:CH330N"
 			(exclude_from_sim no)
@@ -1025,6 +1049,24 @@
 				)
 			)
 			(symbol "CH330N_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
@@ -1062,42 +1104,6 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "~{RTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "VCC"
@@ -1108,6 +1114,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1151,17 +1175,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 2.54 0)
+				(pin output line
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "V3"
+					(name "~{RTS}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1170,9 +1194,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Power_Protection:USBLC6-2SC6"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1255,17 +1282,6 @@
 					)
 				)
 				(circle
-					(center -0.508 -4.572)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center -0.508 2.032)
 					(radius 0.0001)
 					(stroke
@@ -1277,7 +1293,7 @@
 					)
 				)
 				(circle
-					(center 0.508 -4.572)
+					(center -0.508 -4.572)
 					(radius 0.0001)
 					(stroke
 						(width 0.508)
@@ -1289,6 +1305,17 @@
 				)
 				(circle
 					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
 					(radius 0.0001)
 					(stroke
 						(width 0.508)
@@ -1313,6 +1340,18 @@
 			(symbol "USBLC6-2SC6_0_1"
 				(polyline
 					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
@@ -1325,7 +1364,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 2.54 0)
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
 					)
 					(stroke
 						(width 0)
@@ -1361,19 +1400,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -3.048) (xy 2.032 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.524) (xy 2.032 1.524)
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
 					)
 					(stroke
 						(width 0)
@@ -1397,19 +1424,8 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1433,7 +1449,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
 					)
 					(stroke
 						(width 0)
@@ -1457,8 +1485,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
-						(xy 0 -5.08)
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
 					)
 					(stroke
 						(width 0)
@@ -1524,24 +1551,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "I/O2"
@@ -1552,24 +1561,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1596,6 +1587,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "I/O1"
@@ -1613,7 +1622,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Linear:XC6206PxxxMR"
 			(pin_names
@@ -1700,6 +1728,24 @@
 			)
 			(symbol "XC6206PxxxMR_1_1"
 				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
@@ -1735,31 +1781,18 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1850,12 +1883,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1946,6 +1984,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -2379,8 +2418,7 @@
 		(uuid "f1177f4d-0054-4d28-8cfa-8119f1012acf")
 	)
 	(label "UD-"
-		(at 132.08 109.22 0)
-		(fields_autoplaced yes)
+		(at 134.62 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2391,7 +2429,6 @@
 	)
 	(label "D-"
 		(at 114.3 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2401,8 +2438,7 @@
 		(uuid "3cb621f4-bb47-48e0-9269-32b1d496417d")
 	)
 	(label "UD+"
-		(at 132.08 106.68 0)
-		(fields_autoplaced yes)
+		(at 134.62 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2413,7 +2449,6 @@
 	)
 	(label "D+"
 		(at 114.3 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2425,7 +2460,6 @@
 	(hierarchical_label "RX"
 		(shape input)
 		(at 198.12 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2437,7 +2471,6 @@
 	(hierarchical_label "TX"
 		(shape output)
 		(at 198.12 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,7 +2489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "002c2d09-f664-4097-bbd3-73f72bbb27e7")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0303"
 			(at 137.16 80.01 0)
 			(effects
 				(font
@@ -2505,12 +2538,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0403")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0303")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -2526,7 +2559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dfe3864-00a8-4451-a0a8-700906386a43")
-		(property "Reference" "#FLG0401"
+		(property "Reference" "#FLG0301"
 			(at 109.855 63.5 0)
 			(effects
 				(font
@@ -2576,12 +2609,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#FLG0401")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#FLG0301")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#FLG0401")
 					(unit 1)
 				)
 			)
@@ -2597,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101ddb09-1b68-4dd0-91f6-ccc0636c8bb8")
-		(property "Reference" "U403"
+		(property "Reference" "U303"
 			(at 185.42 104.14 0)
 			(effects
 				(font
@@ -2749,12 +2782,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "U403")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "U303")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "U403")
 					(unit 1)
 				)
 			)
@@ -2770,7 +2803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14e78830-82f7-4171-8c47-a7ddef9c10cb")
-		(property "Reference" "J401"
+		(property "Reference" "J301"
 			(at 104.14 93.98 0)
 			(effects
 				(font
@@ -2795,7 +2828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -2914,12 +2947,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "J401")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "J301")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -2935,7 +2968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3da23da1-6b41-46fe-8199-b471ecf6d289")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0307"
 			(at 170.18 128.27 0)
 			(effects
 				(font
@@ -2984,12 +3017,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0407")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0307")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45cc9b03-33bf-4c50-b6a3-db6184342947")
-		(property "Reference" "C402"
+		(property "Reference" "C302"
 			(at 151.13 68.5799 0)
 			(effects
 				(font
@@ -3139,12 +3172,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "C402")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "C302")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -3160,7 +3193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b855af-e71b-4d57-bf99-6ed4a45ef276")
-		(property "Reference" "C404"
+		(property "Reference" "C304"
 			(at 173.99 114.2999 0)
 			(effects
 				(font
@@ -3294,12 +3327,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "C404")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "C304")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -3314,7 +3347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "537ff337-ca2f-4763-9df1-8e92d5798e5f")
-		(property "Reference" "C401"
+		(property "Reference" "C301"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -3446,12 +3479,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "C401")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "C301")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -3467,7 +3500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d0c155f-febd-4e43-924e-c3c814bfce63")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0302"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -3516,12 +3549,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0402")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0302")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -3537,7 +3570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62d1db4f-8195-42c5-8851-b7c63a37efb9")
-		(property "Reference" "R402"
+		(property "Reference" "R302"
 			(at 175.26 69.85 0)
 			(effects
 				(font
@@ -3671,12 +3704,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "R402")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "R302")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -3692,7 +3725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d68d06-6384-4e58-936f-23f4607ed47f")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0306"
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -3741,12 +3774,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0406")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0306")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -3762,7 +3795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6851fe5b-b786-4657-9ddb-aa36347dd4f9")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR0304"
 			(at 127 123.19 0)
 			(effects
 				(font
@@ -3811,12 +3844,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0404")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -3831,7 +3864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e06c899-3f0f-4943-9a7a-04eb19728249")
-		(property "Reference" "FB401"
+		(property "Reference" "FB301"
 			(at 100.584 126.492 90)
 			(effects
 				(font
@@ -3963,12 +3996,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "FB401")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "FB301")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "FB401")
 					(unit 1)
 				)
 			)
@@ -3984,7 +4017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f2e6887-6a9a-4147-a21d-f6237a22022c")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR0301"
 			(at 104.14 146.05 0)
 			(effects
 				(font
@@ -4033,12 +4066,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0401")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0301")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -4054,7 +4087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b25e16de-399c-4c8f-91a1-e13ac85718db")
-		(property "Reference" "C403"
+		(property "Reference" "C303"
 			(at 163.83 68.5799 0)
 			(effects
 				(font
@@ -4188,12 +4221,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "C403")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "C303")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -4209,7 +4242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a5c876-4362-4171-8991-fee48000ed97")
-		(property "Reference" "U402"
+		(property "Reference" "U302"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -4347,12 +4380,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "U402")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "U302")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -4367,7 +4400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4190878-3376-4c6f-8258-fc981050c845")
-		(property "Reference" "U401"
+		(property "Reference" "U301"
 			(at 131.064 102.616 0)
 			(effects
 				(font
@@ -4511,12 +4544,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "U401")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "U301")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -4532,7 +4565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbd4ecac-698d-421a-a021-8481626cd006")
-		(property "Reference" "D401"
+		(property "Reference" "D301"
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -4658,6 +4691,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43c39d00-91b2-4034-a4b5-b4dfe21f8235")
 		)
@@ -4666,12 +4707,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "D401")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "D301")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -4687,7 +4728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de6b2546-9fb8-4f5e-b89a-02a091415842")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0305"
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -4736,12 +4777,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0405")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0305")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -4894,7 +4935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6fde119-f2bc-438a-85f9-223a78efb7fa")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0309"
 			(at 185.42 123.19 0)
 			(effects
 				(font
@@ -4943,12 +4984,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0409")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0309")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -4964,7 +5005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ddcb41-5c5d-4a57-9398-f526bfb63d60")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0308"
 			(at 175.26 92.71 0)
 			(effects
 				(font
@@ -5013,12 +5054,12 @@
 		)
 		(instances
 			(project "akkupack-ng"
-				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
-					(reference "#PWR0408")
-					(unit 1)
-				)
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/6dcc1ff5-8384-404f-a673-016d43e5259c"
 					(reference "#PWR0308")
+					(unit 1)
+				)
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c/b42c4ae4-142a-4071-85c3-0a5227412cad"
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
