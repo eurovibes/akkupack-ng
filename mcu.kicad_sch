@@ -1733,6 +1733,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5336,18 +5519,6 @@
 		(uuid "3ffbe711-d742-4ee4-9575-64f299848ef8")
 	)
 	(no_connect
-		(at 134.62 73.66)
-		(uuid "4de1e299-58f2-41cc-804c-2f0f156402dc")
-	)
-	(no_connect
-		(at 134.62 78.74)
-		(uuid "4e2cbe9a-18b8-40b1-9073-48d6d556cc56")
-	)
-	(no_connect
-		(at 134.62 76.2)
-		(uuid "8953b90f-5e23-415f-8f86-dc2c87b8781a")
-	)
-	(no_connect
 		(at 99.06 114.3)
 		(uuid "93495793-fc5f-4471-a588-357bc57e7076")
 	)
@@ -5358,10 +5529,6 @@
 	(no_connect
 		(at 99.06 104.14)
 		(uuid "b671af01-2143-4904-b289-1661e7c71992")
-	)
-	(no_connect
-		(at 134.62 81.28)
-		(uuid "bfbdadf6-702a-4b56-a8aa-0a521abde45d")
 	)
 	(no_connect
 		(at 99.06 101.6)
@@ -5420,6 +5587,16 @@
 			(type default)
 		)
 		(uuid "05db9a97-1108-4645-a25c-299ef99cbef8")
+	)
+	(wire
+		(pts
+			(xy 134.62 78.74) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06029fbe-cdd0-4794-a1f1-afd955d90cf7")
 	)
 	(wire
 		(pts
@@ -5483,6 +5660,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 139.7) (xy 190.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fce9e37-0074-4977-9f48-4179b0c56256")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 152.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10349090-b5a5-4f25-bc8e-db9112b57e8a")
+	)
+	(wire
+		(pts
 			(xy 152.4 38.1) (xy 152.4 40.64)
 		)
 		(stroke
@@ -5513,6 +5710,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 152.4) (xy 177.8 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17166846-b5c2-4b68-a16e-c4cc76f2be2b")
+	)
+	(wire
+		(pts
 			(xy 25.4 170.18) (xy 25.4 172.72)
 		)
 		(stroke
@@ -5520,6 +5727,16 @@
 			(type default)
 		)
 		(uuid "178eb984-6d70-4147-bd3f-01e8c0a16677")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da8fc15-d217-44e0-8d6f-081482ff61fc")
 	)
 	(wire
 		(pts
@@ -5650,6 +5867,16 @@
 			(type default)
 		)
 		(uuid "3002b69e-3a42-493e-bcd2-45798e53d5b8")
+	)
+	(wire
+		(pts
+			(xy 190.5 152.4) (xy 190.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325bc4b5-4176-4437-95f5-4423571d9510")
 	)
 	(wire
 		(pts
@@ -6293,6 +6520,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 152.4) (xy 152.4 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce8945a-2703-45f3-aaab-ee365c243d67")
+	)
+	(wire
+		(pts
 			(xy 254 139.7) (xy 254 142.24)
 		)
 		(stroke
@@ -6413,6 +6650,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 139.7) (xy 177.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8baadd-76ba-42c9-af5e-5cebb534f136")
+	)
+	(wire
+		(pts
 			(xy 58.42 38.1) (xy 60.96 38.1)
 		)
 		(stroke
@@ -6500,6 +6747,16 @@
 			(type default)
 		)
 		(uuid "aba263dd-7330-4453-b60e-f461b6f23755")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba76b62-3484-472c-8238-838115d25aa8")
 	)
 	(wire
 		(pts
@@ -6593,6 +6850,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 129.54) (xy 177.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcdaaca-4212-4688-bb2c-fdd9134b6aef")
+	)
+	(wire
+		(pts
 			(xy 35.56 109.22) (xy 40.64 109.22)
 		)
 		(stroke
@@ -6673,6 +6940,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 129.54) (xy 165.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83a4fcb-c500-4840-810c-597e99d8bf32")
+	)
+	(wire
+		(pts
 			(xy 71.12 81.28) (xy 73.66 81.28)
 		)
 		(stroke
@@ -6680,6 +6957,16 @@
 			(type default)
 		)
 		(uuid "c85c22c4-b455-4258-8d0f-37c2c9b20af4")
+	)
+	(wire
+		(pts
+			(xy 152.4 139.7) (xy 152.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb208ae7-3ed9-4f82-9ba2-7af412bb5ba9")
 	)
 	(wire
 		(pts
@@ -6720,6 +7007,16 @@
 			(type default)
 		)
 		(uuid "cece303a-f20d-4e2b-867b-f5bc2d5cd768")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d002c30b-b5a6-4b46-a8a8-c93bec1029fd")
 	)
 	(wire
 		(pts
@@ -6790,6 +7087,26 @@
 			(type default)
 		)
 		(uuid "d5e72027-f0fa-4876-8983-f518e1ee3c01")
+	)
+	(wire
+		(pts
+			(xy 190.5 129.54) (xy 190.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7139708-65aa-4c93-ac96-b686236364c2")
+	)
+	(wire
+		(pts
+			(xy 165.1 139.7) (xy 165.1 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d745864f-e2f8-400d-861c-f3e5ff15b696")
 	)
 	(wire
 		(pts
@@ -6890,6 +7207,16 @@
 			(type default)
 		)
 		(uuid "e0ee27a9-cff8-45f0-a697-c9ba56957108")
+	)
+	(wire
+		(pts
+			(xy 165.1 152.4) (xy 165.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13a0803-ff91-4827-8556-c836d7e8dc47")
 	)
 	(wire
 		(pts
@@ -7051,6 +7378,16 @@
 		)
 		(uuid "04aad0fb-3fb7-4217-a1dc-de3454c7b5c8")
 	)
+	(label "LED3"
+		(at 137.16 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05e69e1c-d97b-4364-8fc8-5d2ac001a1b9")
+	)
 	(label "SWDIO"
 		(at 137.16 96.52 0)
 		(effects
@@ -7071,6 +7408,16 @@
 		)
 		(uuid "14794899-53b3-4185-99d4-822a55089b9d")
 	)
+	(label "LED1"
+		(at 152.4 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "187027a0-cb1d-47ea-a9c1-6381c8192dbd")
+	)
 	(label "DP"
 		(at 137.16 93.98 0)
 		(effects
@@ -7090,6 +7437,16 @@
 			(justify left bottom)
 		)
 		(uuid "300b8ce8-592e-448c-96ef-07cd039421ff")
+	)
+	(label "LED4"
+		(at 190.5 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31a80535-140d-4ba1-936e-16f89641eefb")
 	)
 	(label "SWCLK"
 		(at 43.18 139.7 0)
@@ -7150,6 +7507,26 @@
 			(justify right bottom)
 		)
 		(uuid "4935f138-65f8-4f06-94df-0783cf916060")
+	)
+	(label "LED1"
+		(at 137.16 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50927bcd-a3e2-4656-8f55-d68af46febd6")
+	)
+	(label "LED2"
+		(at 137.16 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "607aa44e-4738-4371-8eb7-97cf3631cdfa")
 	)
 	(label "SWCLK"
 		(at 137.16 99.06 0)
@@ -7271,6 +7648,16 @@
 		)
 		(uuid "afe3dbfb-a03c-4aaf-b433-3a5e469a1e30")
 	)
+	(label "LED3"
+		(at 177.8 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba5b9383-597f-41b9-88ac-98c673568013")
+	)
 	(label "~{DISPRST}"
 		(at 40.64 114.3 0)
 		(effects
@@ -7290,6 +7677,16 @@
 			(justify left bottom)
 		)
 		(uuid "c34b5155-b1be-42ae-8d0a-671051a6a53c")
+	)
+	(label "LED2"
+		(at 165.1 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7ebc7b5-29ae-4c6f-8e8c-3d032c9b0f1e")
 	)
 	(label "~{RST}"
 		(at 50.8 165.1 180)
@@ -7320,6 +7717,16 @@
 			(justify right bottom)
 		)
 		(uuid "ee87c1ea-5058-4ca5-b810-ce8d78e6309f")
+	)
+	(label "LED4"
+		(at 137.16 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3f81fbb-d0b3-438d-88fa-8af40d05ba58")
 	)
 	(label "VBUSsense"
 		(at 264.16 83.82 90)
@@ -8321,6 +8728,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 165.1 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1908f3ec-8bce-4cbd-9032-a7422a18dd74")
+		(property "Reference" "D204"
+			(at 168.91 136.2074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 168.91 138.7474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "JLCPCB"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "assemble" "y"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C7371906"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Long Description" "90mcd Red 615nm~630nm Upright, surface-mount Red 120° 75mW 0603 Light Emitting Diodes (LED) ROHS"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Xinglight-XL_1608VRC06/C7371906"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "XINGLIGHT"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "XL-1608VRC-06"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "339cb6ff-1ec5-4c62-80eb-7673bde904c7")
+		)
+		(pin "1"
+			(uuid "a32b1e77-6dda-4654-96c1-91e5351da4bd")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "D204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 165.1 44.45 0)
 		(unit 1)
@@ -8514,6 +9080,165 @@
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
 					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 177.8 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1df15a47-0a13-43b9-b20f-25830bd7edef")
+		(property "Reference" "D205"
+			(at 181.61 136.2074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 181.61 138.7474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "JLCPCB"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "assemble" "y"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C7371906"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Long Description" "90mcd Red 615nm~630nm Upright, surface-mount Red 120° 75mW 0603 Light Emitting Diodes (LED) ROHS"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Xinglight-XL_1608VRC06/C7371906"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "XINGLIGHT"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "XL-1608VRC-06"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23f378f2-9fed-4578-af25-7ff1eca57a16")
+		)
+		(pin "1"
+			(uuid "a291f8c7-d43b-43c6-b660-94bbdec7e3a7")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "D205")
 					(unit 1)
 				)
 			)
@@ -9454,6 +10179,72 @@
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
 					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 152.4 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f6be4fb-f8ca-4e8e-bfc6-50e6d8ce3841")
+		(property "Reference" "#PWR0243"
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 152.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7488a183-1bc4-4732-a03b-ccaa16a5e94f")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -10918,6 +11709,72 @@
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
 					(reference "U203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 190.5 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58c5367d-2386-4496-af7b-21a37ba3ef5f")
+		(property "Reference" "#PWR0246"
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fd69af5-252a-449f-bee1-ee6fce99a06a")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -12609,6 +13466,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 152.4 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9af95cce-63d0-4cf2-99da-c14f6f4fe994")
+		(property "Reference" "R214"
+			(at 154.94 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 154.94 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 150.622 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "JLCPCB"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "assemble" "y"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C11702"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Long Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplLink" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402WGF1001TCE"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ddcb668-b57c-4a4b-a35e-612cd6d8f46a")
+		)
+		(pin "2"
+			(uuid "2d58dbcd-1bf7-45fd-86af-7a6f27c3313d")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "R214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_OTG")
 		(at 251.46 119.38 0)
 		(mirror y)
@@ -13598,6 +14606,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 177.8 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afc55e7f-e858-4a5c-8406-e325f003a1e7")
+		(property "Reference" "#PWR0245"
+			(at 177.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 177.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1fd3308-f6c5-47b5-8365-d34fd2ac39f0")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 67.31 88.9 90)
 		(unit 1)
@@ -13722,6 +14796,165 @@
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
 					(reference "C207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2df092a-87c7-450f-a9b3-040b59de41bd")
+		(property "Reference" "D203"
+			(at 156.21 136.2074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 156.21 138.7474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "JLCPCB"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "assemble" "y"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C7371906"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Long Description" "90mcd Red 615nm~630nm Upright, surface-mount Red 120° 75mW 0603 Light Emitting Diodes (LED) ROHS"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Xinglight-XL_1608VRC06/C7371906"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "XINGLIGHT"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "XL-1608VRC-06"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "677a3065-8a09-4724-988e-b90fca10f59c")
+		)
+		(pin "1"
+			(uuid "ebab0dba-0179-4aaa-9d52-def868ccb296")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -13921,6 +15154,157 @@
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
 					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc908747-3270-403e-af21-3d9dcc436381")
+		(property "Reference" "R215"
+			(at 167.64 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 167.64 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.322 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "JLCPCB"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "assemble" "y"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C11702"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Long Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplLink" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402WGF1001TCE"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24ac65e4-195f-4ee9-8e2e-64d585def9ce")
+		)
+		(pin "2"
+			(uuid "7094a2e7-0d8f-49ec-a830-963d8a1cc3c1")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "R215")
 					(unit 1)
 				)
 			)
@@ -14535,6 +15919,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0489b2d-c3df-46ca-9f6b-f8f352d96366")
+		(property "Reference" "D206"
+			(at 194.31 136.2074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 194.31 138.7474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "JLCPCB"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "assemble" "y"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C7371906"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Long Description" "90mcd Red 615nm~630nm Upright, surface-mount Red 120° 75mW 0603 Light Emitting Diodes (LED) ROHS"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Xinglight-XL_1608VRC06/C7371906"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "XINGLIGHT"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "XL-1608VRC-06"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "820ed19a-c2fa-4b64-8073-b20cf1448845")
+		)
+		(pin "1"
+			(uuid "9c35f69b-c13a-4ffd-b253-c2c79afb169a")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "D206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 165.1 38.1 0)
 		(unit 1)
@@ -14845,6 +16388,223 @@
 			(project ""
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
 					(reference "J202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6a699f-a3ac-4407-8659-ffb5b1c6637c")
+		(property "Reference" "R216"
+			(at 180.34 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 180.34 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 176.022 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "JLCPCB"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "assemble" "y"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C11702"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Long Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplLink" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402WGF1001TCE"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e95b3f6e-c80e-49be-8a97-961d8d9e2566")
+		)
+		(pin "2"
+			(uuid "d6503348-d4d4-488a-bd18-4c53b7f94e2c")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc5f3a3c-d7a9-4e7b-b78a-be0ee7e1fa1a")
+		(property "Reference" "#PWR0244"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ff65a01-81fb-4e50-bb61-a51d92b0e399")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -15372,6 +17132,157 @@
 			(project "akkupack-ng"
 				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
 					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6ff16e8-2846-4805-a3b9-c48936120a17")
+		(property "Reference" "R217"
+			(at 193.04 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 193.04 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 188.722 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "JLCPCB"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "assemble" "y"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C11702"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Long Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplLink" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402WGF1001TCE"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92d72be8-d126-49dd-96f5-1fcde0c5724b")
+		)
+		(pin "2"
+			(uuid "8fcd8a72-76dc-4b5b-b1b8-92417bf2e7b1")
+		)
+		(instances
+			(project "akkupack-ng"
+				(path "/28c14643-513c-46b6-b18d-27cb3c7eee92/de76c23a-5b99-4def-922c-07fd05553b7c"
+					(reference "R217")
 					(unit 1)
 				)
 			)
