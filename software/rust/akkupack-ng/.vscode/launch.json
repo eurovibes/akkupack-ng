@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "preLaunchTask": "${defaultBuildTask}",
+            "type": "probe-rs-debug",
+            "request": "launch",
+            "name": "probe-rs DCClicht debug",
+            "flashingConfig": {
+		"flashingEnabled": true,
+            },
+            "chip": "STM32F103CB",
+            "coreConfigs": [
+		{
+                    "programBinary": "./target/thumbv7m-none-eabi/debug/dcclicht"
+		}
+            ]
+        }
+    ]
+}
