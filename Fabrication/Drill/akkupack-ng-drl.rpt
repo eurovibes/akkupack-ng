@@ -1,5 +1,5 @@
 Drill report for akkupack-ng.kicad_pcb
-Created on 2025-05-10T12:42:51+0000
+Created on 2025-05-13T02:01:22+0000
 
 Copper Layer Stackup:
     =============================================================
@@ -12,16 +12,16 @@ Copper Layer Stackup:
 Drill file 'akkupack-ng-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (84 holes)
+    T1  0.300mm  0.0118"  (86 holes)
     T2  0.600mm  0.0236"  (6 holes)  (with 6 slots)
     T3  0.650mm  0.0256"  (6 holes)  (with 6 slots)
     T4  0.800mm  0.0315"  (6 holes)
-    T5  1.000mm  0.0394"  (19 holes)
+    T5  1.000mm  0.0394"  (28 holes)
     T6  1.150mm  0.0453"  (16 holes)
     T7  1.905mm  0.0750"  (12 holes)
     T8  3.200mm  0.1260"  (6 holes)
 
-    Total plated holes count 155
+    Total plated holes count 166
 
 
 Drill file 'akkupack-ng-NPTH.drl' contains

@@ -1,4 +1,4 @@
-ERC report (2025-05-10T12:42:24+0000, Encoding UTF8)
+ERC report (2025-05-13T02:00:53+0000, Encoding UTF8)
 
 ***** Sheet /
 
@@ -7,5 +7,7 @@ ERC report (2025-05-10T12:42:24+0000, Encoding UTF8)
 ***** Sheet /MCU/serial1/
 
 ***** Sheet /MCU/serial2/
+
+***** Sheet /Input Selection/
 
  ** ERC messages: 0  Errors 0  Warnings 0
