@@ -27,8 +27,9 @@ jobs:
   Fabrication:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: INTI-CMNB/KiBot@v2_k9
+    - uses: actions/checkout@v4
+    - name: KiBot GitHub action
+      uses: INTI-CMNB/KiBot@v1.8.4
       with:
         # Required - kibot config file
         config: akkupack-ng.kibot.yaml
