@@ -1,4 +1,4 @@
-### Module positions - created on Thu 15 May 2025 02:09:37  ###
+### Module positions - created on Thu 15 May 2025 19:51:07  ###
 ### Printed by KiBot
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -48,6 +48,8 @@ D203      RED                 LED_0603_1608Metric               132.5000   -90.2
 D204      RED                 LED_0603_1608Metric               137.5000   -90.2500    -90.0000   top 
 D205      RED                 LED_0603_1608Metric               142.5000   -90.2500    -90.0000   top 
 D206      RED                 LED_0603_1608Metric               147.5000   -90.2500    -90.0000   top 
+D207      AZ23C5V6-7          SOT-23                            82.2500    -122.7500   -90.0000   top 
+D208      AZ23C5V6-7          SOT-23                            82.2500    -118.5000   -90.0000   top 
 D301      LED                 LED_0603_1608Metric               115.0100   -53.7450    -90.0000   top 
 D401      LED                 LED_0603_1608Metric               130.0100   -53.7450    -90.0000   top 
 FB201     FerriteBead_Small   L_0805_2012Metric                 146.5000   -49.0000    -90.0000   top 
@@ -91,6 +93,10 @@ R214      1k                  R_0402_1005Metric                 132.5000   -87.5
 R215      1k                  R_0402_1005Metric                 137.5000   -87.5000    90.0000    top 
 R216      1k                  R_0402_1005Metric                 142.5000   -87.5000    90.0000    top 
 R217      1k                  R_0402_1005Metric                 147.5000   -87.5000    90.0000    top 
+R218      100                 R_0402_1005Metric                 85.7000    -121.8125   180.0000   top 
+R219      100                 R_0402_1005Metric                 75.7500    -116.5100   -90.0000   top 
+R220      100                 R_0402_1005Metric                 83.2000    -115.0625   -90.0000   top 
+R221      100                 R_0402_1005Metric                 73.2500    -116.5000   -90.0000   top 
 R301      0                   R_0402_1005Metric                 112.5000   -51.5000    0.0000     top 
 R302      1k                  R_0402_1005Metric                 114.5100   -56.2650    0.0000     top 
 R401      0                   R_0402_1005Metric                 127.5000   -51.5000    0.0000     top 
