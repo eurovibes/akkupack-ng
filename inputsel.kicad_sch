@@ -4778,7 +4778,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C321332"
+		(property "lcsc#" "C327368"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplLink" "https://jlcpcb.com/partdetail/302237-RC02W1653FT/C321332"
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Yageo-RC0402FR07165KL/C327368"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "FH (Guangdong Fenghua Advanced Tech)"
+		(property "MF" " YAGEO"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -4823,7 +4823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC-02W1653FT"
+		(property "MP" " RC0402FR-07165KL"
 			(at 88.9 83.82 0)
 			(effects
 				(font

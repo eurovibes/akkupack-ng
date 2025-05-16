@@ -6690,7 +6690,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C7371906"
+		(property "lcsc#" "C2286"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -6708,7 +6708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Long Description" "90mcd Red 615nm~630nm Upright, surface-mount Red 120° 75mW 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Long Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplLink" "https://jlcpcb.com/partdetail/Xinglight-XL_1608VRC06/C7371906"
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -6726,7 +6726,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "XINGLIGHT"
+		(property "MF" "Hubei KENTO Elec"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -6735,7 +6735,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XL-1608VRC-06"
+		(property "MP" " KT-0603R"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -13736,7 +13736,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C2912016"
+		(property "lcsc#" "C22399881"
 			(at 33.02 46.99 0)
 			(effects
 				(font
@@ -13763,7 +13763,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplLink" "https://jlcpcb.com/partdetail/Lrc-LBZT52B5V6T1G/C2912016"
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Hongjiacheng-BZT52B5V6/C22399881"
 			(at 33.02 46.99 0)
 			(effects
 				(font
@@ -13772,7 +13772,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "LRC"
+		(property "MF" "hongjiacheng"
 			(at 33.02 46.99 0)
 			(effects
 				(font
@@ -13781,7 +13781,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LBZT52B5V6T1G"
+		(property "MP" "BZT52B5V6"
 			(at 33.02 46.99 0)
 			(effects
 				(font
@@ -14237,7 +14237,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C7371906"
+		(property "lcsc#" "C2286"
 			(at 152.4 100.33 0)
 			(effects
 				(font
@@ -14255,7 +14255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Long Description" "90mcd Red 615nm~630nm Upright, surface-mount Red 120° 75mW 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Long Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 152.4 100.33 0)
 			(effects
 				(font
@@ -14264,7 +14264,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplLink" "https://jlcpcb.com/partdetail/Xinglight-XL_1608VRC06/C7371906"
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
 			(at 152.4 100.33 0)
 			(effects
 				(font
@@ -14273,7 +14273,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "XINGLIGHT"
+		(property "MF" "Hubei KENTO Elec"
 			(at 152.4 100.33 0)
 			(effects
 				(font
@@ -14282,7 +14282,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XL-1608VRC-06"
+		(property "MP" " KT-0603R"
 			(at 152.4 100.33 0)
 			(effects
 				(font
@@ -14770,7 +14770,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C7371906"
+		(property "lcsc#" "C2286"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -14788,7 +14788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Long Description" "90mcd Red 615nm~630nm Upright, surface-mount Red 120° 75mW 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Long Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -14797,7 +14797,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplLink" "https://jlcpcb.com/partdetail/Xinglight-XL_1608VRC06/C7371906"
+		(property "SupplLink" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -14806,7 +14806,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "XINGLIGHT"
+		(property "MF" "Hubei KENTO Elec"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -14815,7 +14815,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XL-1608VRC-06"
+		(property "MP" " KT-0603R"
 			(at 165.1 100.33 0)
 			(effects
 				(font
