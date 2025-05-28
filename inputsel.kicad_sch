@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Akkupack NG")
-		(date "2024-05-10")
-		(rev "0.1")
+		(date "2025-05-28")
+		(rev "0.2")
 		(company "Eurovibes Benedikt Spranger")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
 		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
